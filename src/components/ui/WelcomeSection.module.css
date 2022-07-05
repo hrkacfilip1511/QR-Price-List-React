@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+.welcomeText {
+  width: 400px;
+  height: 600px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 80;
+  font-family: "Poppins";
+  letter-spacing: 0.6px;
+}
+.logo {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.secondParagraph {
+  width: 100%;
+  text-align: center;
+}
