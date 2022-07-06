@@ -6,13 +6,15 @@ const WelcomeSection = () => {
       <div>
         <img src={caffeLogo} alt="logo" className={classes.logo} />
       </div>
-      <p className={classes.firstParagraph}>
-        Dobrodošli u Caffe & Lounge Bar Viola
-      </p>
-      <p className={classes.secondParagraph}>
-        Skeniranjem QR code-a sa stola, dolazite na naš online cjenik. U lijevom
-        gornjem kutu kliknite za pretraživanje kategorija.
-      </p>
+      <div className={classes.paragraphs}>
+        <p className={classes.firstParagraph}>
+          Dobrodošli u Caffe & Lounge Bar
+        </p>
+        <p className={classes.secondParagraph}>
+          Skeniranjem QR code-a sa stola, dolazite na naš online cjenik. U
+          lijevom gornjem kutu kliknite za pretraživanje kategorija.
+        </p>
+      </div>
     </div>
   );
 };
