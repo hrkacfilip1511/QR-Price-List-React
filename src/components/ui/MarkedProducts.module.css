@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+body {
+  background: rgb(253, 243, 243);
+}
+.markedContainer {
+  width: 100%;
+  position: absolute;
+  top: 700px;
+  z-index: 60;
+}
+.bestCakes,
+.bestWines,
+.bestCocktails {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  background-color: rgb(246, 246, 246);
+}
+.cakesParagraph,
+.cocktailsParagraph {
+  margin-right: 10px;
+  font-family: "Poppins";
+  letter-spacing: 0.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+.cakesParagraph h2,
+.cocktailsParagraph h2 {
+  font-family: "Poppins";
+  letter-spacing: 0.7px;
+  width: 100%;
+  text-align: end;
+  text-transform: uppercase;
+}
+.bestCakes img {
+  width: 25%;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.winesParagraph {
+  margin-left: 10px;
+  font-family: "Poppins";
+  letter-spacing: 0.7px;
+  font-style: italic;
+}
+.bestWines img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.winesParagraph h2 {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  letter-spacing: 0.7px;
+}
+.bestCocktails img {
+  width: 25%;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

@@ -1,22 +1,29 @@
-import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Backdrop from "./components/Backdrop";
-import Header from "./components/Header";
-import LeftMenu from "./components/ui/LeftMenu";
-import WelcomeSection from "./components/ui/WelcomeSection";
+
+import Coffe from "./pages/Coffe";
+import Sweets from "./pages/Sweets";
+import Beer from "./pages/Beer";
+import Wine from "./pages/Wine";
+import Cocktails from "./pages/Cocktails";
+import Juices from "./pages/Juices";
+import Shots from "./pages/Shots";
+import Home from "./pages/Home";
 
 function App() {
-  const [isLeftMenuOpen, setLeftMenuOpen] = useState(false);
-  const leftMenuHandler = () => {
-    setLeftMenuOpen((prev) => !prev);
-    console.log(isLeftMenuOpen);
-  };
+  console.log("App");
   return (
     <div>
-      <Header onChange={leftMenuHandler} />
-      <WelcomeSection />
-      <Backdrop />
-      <LeftMenu leftMenuStatus={isLeftMenuOpen} />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/coffes" element={<Coffe />} />
+        <Route path="/sweets" element={<Sweets />} />
+        <Route path="/beers" element={<Beer />} />
+        <Route path="/wines" element={<Wine />} />
+        <Route path="/cocktails" element={<Cocktails />} />
+        <Route path="/juices" element={<Juices />} />
+        <Route path="/alcohol" element={<Shots />} />
+      </Routes>
     </div>
   );
 }

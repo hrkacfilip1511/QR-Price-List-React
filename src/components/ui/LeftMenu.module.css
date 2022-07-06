@@ -16,14 +16,15 @@
 .wines,
 .cocktails,
 .juices,
-.shots {
+.shots,
+.home {
   width: 100%;
+  height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 35px;
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .logos {
   width: 50%;
@@ -39,4 +40,21 @@
   position: absolute;
   left: 0;
   transition: all 0.9s ease;
+}
+.menuContainer a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+.coffe:hover,
+.sweets:hover,
+.beers:hover,
+.wines:hover,
+.cocktails:hover,
+.juices:hover,
+.shots:hover,
+.home:hover {
+  background-color: bisque;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  font-weight: 500;
 }
