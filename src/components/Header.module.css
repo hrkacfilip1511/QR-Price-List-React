@@ -34,7 +34,7 @@
 } */
 
 .img {
-  width: 100%;
+  width: 150px;
   height: 100px;
   object-fit: cover;
 }
@@ -59,11 +59,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
   }
   .img {
-    width: 50%;
-    height: 40px;
+    width: 100px;
+    height: 60px;
+    float: right;
   }
   .first,
   .second,
