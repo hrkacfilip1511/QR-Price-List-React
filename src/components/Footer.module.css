@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+
+.footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 1400px;
+  color: white;
+}
+.socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook,
+.instagram,
+.tikTok {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(249, 249, 249);
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.socialMedia a {
+  color: white;
+}
+.facebook:hover,
+.instagram:hover,
+.tikTok:hover {
+  background-color: bisque;
+  transition: all 0.3s ease-in;
+  color: black;
+}
+.emptyLine {
+  background-color: white;
+  width: 30%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  height: 1px;
+  margin: 20px 0;
+}
+.footerText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+}

@@ -6,9 +6,12 @@ import { ImGlass } from "react-icons/im";
 import { Link } from "react-router-dom";
 const LeftMenu = (props) => {
   const isActive = props.leftMenuStatus ? ` ${classes.active}` : null;
+  const isLeftMenuBgChanged = props.leftMenuBg ? `${classes.activeBg}` : null;
 
   return (
-    <div className={`${classes.menuContainer}  ${isActive}`}>
+    <div
+      className={`${classes.menuContainer}  ${isActive} ${isLeftMenuBgChanged}`}
+    >
       <Link to="/">
         <div className={classes.home}>
           <FaHome className={classes.logos} />
