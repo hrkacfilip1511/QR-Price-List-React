@@ -2,7 +2,7 @@
 
 .menuContainer {
   width: 400px;
-  background-color: rgba(21, 21, 21, 0.5);
+  background-color: rgba(0, 0, 0);
   z-index: 600;
   position: fixed;
   color: white;
