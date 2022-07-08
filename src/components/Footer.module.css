@@ -4,7 +4,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   position: relative;
-  top: 1400px;
+  top: 1450px;
   color: white;
 }
 .socialMedia {
@@ -37,7 +37,7 @@
 }
 .emptyLine {
   background-color: white;
-  width: 30%;
+  width: 70%;
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -53,4 +53,25 @@
   flex-direction: column;
   font-family: "Poppins";
   letter-spacing: 0.5px;
+}
+@media all and (max-width: 480px) {
+  .footer {
+    top: 1200px;
+  }
+  .facebook,
+  .instagram,
+  .tikTok {
+    width: 15px;
+    height: 15px;
+  }
+  .facebook:hover,
+  .instagram:hover,
+  .tikTok:hover {
+    background-color: unset;
+    color: unset;
+  }
+  .footerText {
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+  }
 }
