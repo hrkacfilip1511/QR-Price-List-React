@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+
+.teas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  margin-top: 50px;
+}
+.title {
+  letter-spacing: 0.8px;
+  font-style: oblique;
+}
+.contentForTea {
+  width: 100%;
+}
+.contentForTea h3 {
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+.teasTable {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 30%;
+}
+.teasTable tr:nth-child(1) {
+  width: 90%;
+}
+td {
+  text-align: center;
+}
+
+.teasTable tr:nth-child(1) td:nth-child(2),
+.teasTable tr:nth-child(1) td:nth-child(3) {
+  width: 30%;
+  font-weight: 600;
+  background-color: bisque;
+  text-align: center;
+}
+.subtitles {
+  text-align: start;
+}
+.teasTable tr:nth-child(1) td:nth-child(1) {
+  width: 30%;
+  font-weight: 600;
+  background-color: bisque;
+  text-align: start;
+}

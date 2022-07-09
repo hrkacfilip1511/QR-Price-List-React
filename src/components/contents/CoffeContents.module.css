@@ -1,0 +1,7 @@
+.coffesAndTeas {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
+}
