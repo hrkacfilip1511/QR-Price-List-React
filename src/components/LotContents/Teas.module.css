@@ -7,7 +7,7 @@
   align-items: center;
   flex-direction: column;
   font-family: "Poppins";
-  margin-top: 50px;
+  margin-top: 20px;
   color: white;
 }
 .title {
@@ -53,6 +53,10 @@ td {
   text-align: start;
   color: gray;
 }
+/* .teasTable tr:nth-child(8) {
+  background-color: aqua;
+  padding-bottom: 20px;
+} */
 @media all and (max-width: 480px) {
   .title {
     font-size: 0.8rem;
