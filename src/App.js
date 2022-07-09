@@ -11,7 +11,6 @@ import Shots from "./pages/Shots";
 import Home from "./pages/Home";
 
 function App() {
-  console.log("App");
   return (
     <div>
       <Routes>

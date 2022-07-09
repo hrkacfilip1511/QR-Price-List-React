@@ -7,13 +7,17 @@
   align-items: center;
   flex-direction: column;
   font-family: "Poppins";
+  color: white;
 }
 .title {
   letter-spacing: 0.8px;
   font-style: oblique;
+  z-index: 100;
+  font-size: 1.1rem;
 }
 .contentForCoffe {
   width: 100%;
+  z-index: 100;
 }
 .contentForCoffe h3 {
   text-align: center;
@@ -38,7 +42,7 @@ td {
 .hotDrinksTable tr:nth-child(1) td:nth-child(3) {
   width: 30%;
   font-weight: 600;
-  background-color: bisque;
+  color: gray;
   text-align: center;
 }
 .subtitles {
@@ -47,6 +51,14 @@ td {
 .hotDrinksTable tr:nth-child(1) td:nth-child(1) {
   width: 30%;
   font-weight: 600;
-  background-color: bisque;
+  color: gray;
   text-align: start;
+}
+@media all and (max-width: 480px) {
+  .title {
+    font-size: 0.8rem;
+  }
+  .contentForCoffe h3 {
+    font-size: 0.9rem;
+  }
 }

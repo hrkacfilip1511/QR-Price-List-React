@@ -8,12 +8,16 @@
   flex-direction: column;
   font-family: "Poppins";
   margin-top: 50px;
+  color: white;
 }
 .title {
   letter-spacing: 0.8px;
   font-style: oblique;
+  z-index: 1000;
+  font-size: 1.2rem;
 }
 .contentForTea {
+  z-index: 1000;
   width: 100%;
 }
 .contentForTea h3 {
@@ -37,8 +41,8 @@ td {
 .teasTable tr:nth-child(1) td:nth-child(3) {
   width: 30%;
   font-weight: 600;
-  background-color: bisque;
   text-align: center;
+  color: gray;
 }
 .subtitles {
   text-align: start;
@@ -46,6 +50,14 @@ td {
 .teasTable tr:nth-child(1) td:nth-child(1) {
   width: 30%;
   font-weight: 600;
-  background-color: bisque;
   text-align: start;
+  color: gray;
+}
+@media all and (max-width: 480px) {
+  .title {
+    font-size: 0.8rem;
+  }
+  .contentForTea h3 {
+    font-size: 0.9rem;
+  }
 }
