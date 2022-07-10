@@ -6,7 +6,7 @@
   position: relative;
   top: 1280px;
   color: white;
-  z-index: 10000;
+  z-index: 800;
 }
 .socialMedia {
   width: 100%;

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
+
+.shooters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  color: white;
+  position: relative;
+  top: 80px;
+  z-index: 90;
+  margin-top: 40px;
+}
+.title {
+  letter-spacing: 0.8px;
+  font-style: oblique;
+  z-index: 100;
+  font-size: 1.1rem;
+}
+.contentForShooters {
+  width: 100%;
+  z-index: 100;
+}
+
+.shootersTable {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 30%;
+}
+.shootersTable tr:nth-child(1) {
+  width: 90%;
+}
+td {
+  text-align: center;
+
+  padding: 10px;
+}
+
+.shootersTable tr:nth-child(1) td:nth-child(2),
+.shootersTable tr:nth-child(1) td:nth-child(3) {
+  width: 30%;
+  font-weight: 600;
+  color: gray;
+  text-align: center;
+}
+.subtitles {
+  text-align: start;
+}
+.shootersTable tr:nth-child(1) td:nth-child(1) {
+  width: 30%;
+  font-weight: 600;
+  color: gray;
+  text-align: start;
+}
+@media all and (max-width: 480px) {
+  .title {
+    font-size: 0.8rem;
+  }
+}
