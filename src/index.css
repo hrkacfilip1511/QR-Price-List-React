@@ -40,7 +40,7 @@ code {
 }
 .coffeBg-image {
   position: fixed;
-  top: 80px;
+  top: -20px;
   left: 0;
   width: 100%;
   z-index: 50;
@@ -69,22 +69,20 @@ code {
   position: fixed;
   top: 80px;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 60;
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
-  height: 900px;
+  height: 100vh;
+  z-index: 60;
 }
 .cocktailBg-image {
   position: fixed;
   top: 80px;
   left: 0;
-  bottom: -241px;
   width: 100%;
+  height: 100vh;
   z-index: 50;
-  object-fit: cover;
-  height: 900px;
+  object-fit: fill;
 }
-
 @media all and (max-width: 480px) {
   .image {
     object-fit: cover;

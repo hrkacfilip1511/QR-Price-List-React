@@ -2,9 +2,9 @@
 
 .footer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  position: relative;
-  top: 1280px;
+  background-color: rgba(0, 0, 0);
+  position: absolute;
+  top: 1300px;
   color: white;
   z-index: 800;
 }

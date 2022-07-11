@@ -1,60 +1,60 @@
 import classes from "./Cocktail.module.css";
+
 const Cocktail = () => {
   return (
-    <div className={classes.cocktail}>
+    <div className={classes.cocktailContainer}>
       <div className={classes.title}>
         <h1>Kokteli</h1>
       </div>
-      <div className={classes.contentForCocktail}>
-        <table className={classes.cocktailTable}>
-          <tr>
-            <td>Artikl</td>
-            <td>Količina</td>
-            <td>Cijena</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Mojito</td>
-            <td>0,5l</td>
-            <td>7,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Cuba Libre</td>
-            <td>0,5l</td>
-            <td>6,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Aperol Spritz</td>
-            <td>0,5l</td>
-            <td>7,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Hugo</td>
-            <td>0,5l</td>
-            <td>6,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Sex On The Beach</td>
-            <td>0,5l</td>
-            <td>6,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Cosmopolitan</td>
-            <td>0,5l</td>
-            <td>6,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Pina colada</td>
-            <td>0,5l</td>
-            <td>6,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Viagra</td>
-            <td>0,5l</td>
-            <td>7,50</td>
-          </tr>
-        </table>
+      <div className={classes.cocktailContent}>
+        <div className={classes.cocktailRow}>
+          <span>Artikl</span>
+          <span>Količina</span>
+          <span>Cijena</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Mojito</span>
+          <span>0.5l</span>
+          <span>7,00</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Cuba Libre</span>
+          <span>0.5l</span>
+          <span>6,00</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Aperol Spritz</span>
+          <span>0.5l</span>
+          <span>7,50</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Hugo</span>
+          <span>0.5l</span>
+          <span>7,00</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Sex on the beach</span>
+          <span>0.5l</span>
+          <span>6,50</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Pina Colada</span>
+          <span>0.5l</span>
+          <span>7,00</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Cosmopolitan</span>
+          <span>0.5l</span>
+          <span>6,50</span>
+        </div>
+        <div className={classes.cocktailRow}>
+          <span>Viagra</span>
+          <span>0.5l</span>
+          <span>7,50</span>
+        </div>
       </div>
     </div>
   );
 };
+
 export default Cocktail;
