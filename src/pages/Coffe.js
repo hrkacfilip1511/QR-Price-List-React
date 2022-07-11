@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CoffeBackdrop from "../components/backdrops/CoffeBackdrop";
 import CoffeContents from "../components/contents/CoffeContents";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -13,6 +14,7 @@ const Coffe = () => {
     <div>
       <Header onChange={leftMenuHandler} />
       <LeftMenu leftMenuStatus={isLeftMenuOpen} />
+      <CoffeBackdrop />
       <CoffeContents />
       <Footer />
     </div>

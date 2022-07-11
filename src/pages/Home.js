@@ -22,7 +22,7 @@ const Home = () => {
   };
   window.onscroll = someListener;
   return (
-    <div>
+    <div className="omg">
       <Header onChange={leftMenuHandler} />
       <WelcomeSection />
       <Backdrop />

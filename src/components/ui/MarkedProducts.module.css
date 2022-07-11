@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
+  padding-top: 20px;
   background-color: rgb(246, 246, 246);
 }
 .cakesParagraph,

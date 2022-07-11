@@ -1,68 +1,71 @@
 import classes from "./Beers.module.css";
 const Beers = () => {
   return (
-    <div className={classes.beers}>
+    <div className={classes.beersContainer}>
       <div className={classes.title}>
         <h1>Pivo</h1>
       </div>
-      <div className={classes.contentForBeer}>
-        <table className={classes.beersTable}>
-          <tr>
-            <td>Artikl</td>
-            <td>Količina</td>
-            <td>Cijena</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Becks</td>
-            <td>0.3l</td>
-            <td>3,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Heineken</td>
-            <td>0.3l</td>
-            <td>3,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Corona</td>
-            <td>0,3l</td>
-            <td>5,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Krombacher</td>
-            <td>0,3l</td>
-            <td>4,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Paulaner</td>
-            <td>0.3l</td>
-            <td>4,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Karlovačko</td>
-            <td>0,3l</td>
-            <td>2,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Ožujsko</td>
-            <td>0,3l</td>
-            <td>5,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Staropramen</td>
-            <td>0.3l</td>
-            <td>2,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Estrella</td>
-            <td>0.3l</td>
-            <td>3,50</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Stella Artois</td>
-            <td>0.3l</td>
-            <td>3,00</td>
-          </tr>
-        </table>
+      <div className={classes.beersContent}>
+        <div className={classes.beersRow}>
+          <span>Artikl</span>
+          <span>Količina</span>
+          <span>Cijena</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Becks</span>
+          <span>0.3l</span>
+          <span>3,00</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Heineken</span>
+          <span>0.3l</span>
+          <span>3,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Corona</span>
+          <span>0.3l</span>
+          <span>5,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Krombacher</span>
+          <span>0.3l</span>
+          <span>4,00</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Paulaner</span>
+          <span>0.3l</span>
+          <span>4,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Karlovačko</span>
+          <span>0.3l</span>
+          <span>2,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Ožujsko</span>
+          <span>0.3l</span>
+          <span>2,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Staropramen</span>
+          <span>0.3l</span>
+          <span>2,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Estrella</span>
+          <span>0.3l</span>
+          <span>3,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Pan</span>
+          <span>0.3l</span>
+          <span>2,50</span>
+        </div>
+        <div className={classes.beersRow}>
+          <span>Stella Artois</span>
+          <span>0.3l</span>
+          <span>3,00</span>
+        </div>
       </div>
     </div>
   );

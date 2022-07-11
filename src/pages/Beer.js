@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BeerBackdrop from "../components/backdrops/BeerBackdrop";
 import BeerContents from "../components/contents/BeerContents";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -14,6 +15,7 @@ const Beer = () => {
     <div>
       <Header onChange={leftMenuHandler} />
       <LeftMenu leftMenuStatus={isLeftMenuOpen} />
+      <BeerBackdrop />
       <BeerContents />
       <Footer />
     </div>

@@ -8,7 +8,6 @@ const CoffeContents = () => {
     <div className={classes.coffesAndTeas}>
       <HotDrinks />
       <Teas />
-      <CoffeBackdrop />
     </div>
   );
 };

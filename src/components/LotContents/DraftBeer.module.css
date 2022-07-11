@@ -1,70 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
 
-.draftBeer {
+.draftBeersContainer {
   width: 100%;
+  margin-top: -130px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Poppins";
+  height: 100vh;
   color: white;
-  position: absolute;
-  top: 50%;
-  z-index: 90;
-
-  height: 990px;
 }
 .title {
-  letter-spacing: 0.8px;
+  letter-spacing: 1.5px;
   font-style: oblique;
-  z-index: 100;
-  font-size: 1.1rem;
-  margin-bottom: 80px;
   text-transform: uppercase;
+  z-index: 80;
 }
-.contentForDraftBeer {
+.draftBeersContent {
+  width: 60%;
+  z-index: 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.draftBeersRow {
   width: 100%;
-  z-index: 100;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-top: 5px; */
+}
+.draftBeersRow:nth-child(1) {
+  color: rgb(143, 143, 143);
+  font-style: italic;
+}
+.draftBeersRow span {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.draftBeersRow span:nth-child(1) {
+  display: flex;
+  justify-content: start;
 }
 
-.draftBeerTable {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  width: 30%;
-}
-.draftBeerTable tr:nth-child(1) {
-  width: 90%;
-}
-td {
-  text-align: center;
-
-  padding: 10px;
-}
-
-.draftBeerTable tr:nth-child(1) td:nth-child(2),
-.draftBeerTable tr:nth-child(1) td:nth-child(3) {
-  width: 30%;
-  font-weight: 600;
-  color: gray;
-  text-align: center;
-}
-.subtitles {
-  text-align: start;
-}
-.draftBeerTable tr:nth-child(1) td:nth-child(1) {
-  width: 30%;
-  font-weight: 600;
-  color: gray;
-  text-align: start;
-}
 @media all and (max-width: 480px) {
+  .draftBeersContent {
+    width: 90%;
+  }
   .title {
     font-size: 0.8rem;
+  }
+  .draftBeersRow {
+    font-size: 0.8rem;
+    margin-top: 3px;
   }
 }

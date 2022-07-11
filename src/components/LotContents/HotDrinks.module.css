@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
 
-.hotDrinks {
+.hotDrinksContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -8,57 +8,53 @@
   flex-direction: column;
   font-family: "Poppins";
   color: white;
+  z-index: 100;
 }
 .title {
-  letter-spacing: 0.8px;
+  letter-spacing: 1.5px;
   font-style: oblique;
+  text-transform: uppercase;
   z-index: 100;
-  font-size: 1.1rem;
+  margin-top: 80px;
 }
-.contentForCoffe {
+.hotDrinksContent {
+  z-index: 100;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hotDrinksRow {
   width: 100%;
-  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.contentForCoffe h3 {
-  text-align: center;
-  letter-spacing: 0.8px;
+.hotDrinksRow:nth-child(1) {
+  color: rgb(143, 143, 143);
+  font-style: italic;
 }
-.hotDrinksTable {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  width: 30%;
+.hotDrinksRow span {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-.hotDrinksTable tr:nth-child(1) {
-  width: 90%;
-}
-td {
-  text-align: center;
-
-  padding: 10px;
-}
-
-.hotDrinksTable tr:nth-child(1) td:nth-child(2),
-.hotDrinksTable tr:nth-child(1) td:nth-child(3) {
-  width: 30%;
-  font-weight: 600;
-  color: gray;
-  text-align: center;
-}
-.subtitles {
-  text-align: start;
-}
-.hotDrinksTable tr:nth-child(1) td:nth-child(1) {
-  width: 30%;
-  font-weight: 600;
-  color: gray;
-  text-align: start;
+.hotDrinksRow span:nth-child(1) {
+  display: flex;
+  justify-content: start;
 }
 @media all and (max-width: 480px) {
+  .hotDrinksContent {
+    width: 90%;
+  }
   .title {
     font-size: 0.8rem;
   }
-  .contentForCoffe h3 {
-    font-size: 0.9rem;
+  .hotDrinksRow {
+    font-size: 0.8rem;
+    margin-top: 3px;
   }
 }

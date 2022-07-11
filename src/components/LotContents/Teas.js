@@ -2,54 +2,51 @@ import classes from "./Teas.module.css";
 
 const Teas = () => {
   return (
-    <div className={classes.teas}>
+    <div className={classes.teasContainer}>
       <div className={classes.title}>
         <h1>Čajevi</h1>
       </div>
-      <div className={classes.contentForTea}>
-        <h3>Proizvođač</h3>
-        <table className={classes.teasTable}>
-          <tr>
-            <td>Artikl</td>
-            <td>Količina</td>
-            <td>Cijena</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Zeleni Čaj</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Šumsko voće</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Kamilica</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Borovnica</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Čaj od mente</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Breskva</td>
-            <td>šalica</td>
-            <td>2,00</td>
-          </tr>
-          <tr>
-            <td className={classes.subtitles}>Med</td>
-            <td>1x</td>
-            <td>0,50</td>
-          </tr>
-        </table>
+      <div className={classes.teasContent}>
+        <div className={classes.teasRow}>
+          <span>Artikl</span>
+          <span>Količina</span>
+          <span>Cijena</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Zeleni čaj</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Šumsko voće</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Kamilica</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Borovnica</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Čaj od mente</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Breskva</span>
+          <span>šalica</span>
+          <span>2,00</span>
+        </div>
+        <div className={classes.teasRow}>
+          <span>Med</span>
+          <span>1x</span>
+          <span>0,50</span>
+        </div>
       </div>
     </div>
   );
