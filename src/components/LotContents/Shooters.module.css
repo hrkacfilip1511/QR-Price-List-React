@@ -8,20 +8,27 @@
   flex-direction: column;
   font-family: "Poppins";
   color: white;
-  position: relative;
-  top: 80px;
+  position: absolute;
+  top: 50%;
   z-index: 90;
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  height: 600px;
 }
 .title {
   letter-spacing: 0.8px;
   font-style: oblique;
   z-index: 100;
   font-size: 1.1rem;
+  margin-bottom: 80px;
 }
 .contentForShooters {
   width: 100%;
   z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
 }
 
 .shootersTable {

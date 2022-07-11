@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
 
-.cocktail {
+.draftBeer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9,27 +9,36 @@
   font-family: "Poppins";
   color: white;
   position: absolute;
-  top: 80px;
+  top: 50%;
   z-index: 90;
+
+  height: 990px;
 }
 .title {
   letter-spacing: 0.8px;
   font-style: oblique;
   z-index: 100;
   font-size: 1.1rem;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
-.contentForCocktail {
+.contentForDraftBeer {
   width: 100%;
   z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
 }
 
-.cocktailTable {
+.draftBeerTable {
   position: relative;
   left: 50%;
   transform: translate(-50%);
   width: 30%;
 }
-.cocktailTable tr:nth-child(1) {
+.draftBeerTable tr:nth-child(1) {
   width: 90%;
 }
 td {
@@ -38,8 +47,8 @@ td {
   padding: 10px;
 }
 
-.cocktailTable tr:nth-child(1) td:nth-child(2),
-.cocktailTable tr:nth-child(1) td:nth-child(3) {
+.draftBeerTable tr:nth-child(1) td:nth-child(2),
+.draftBeerTable tr:nth-child(1) td:nth-child(3) {
   width: 30%;
   font-weight: 600;
   color: gray;
@@ -48,7 +57,7 @@ td {
 .subtitles {
   text-align: start;
 }
-.cocktailTable tr:nth-child(1) td:nth-child(1) {
+.draftBeerTable tr:nth-child(1) td:nth-child(1) {
   width: 30%;
   font-weight: 600;
   color: gray;
