@@ -3,7 +3,7 @@ import LeftMenu from "../components/ui/LeftMenu";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import CocktailsContents from "../components/contents/CocktailsContents";
-import CocktailBackdrop from "../components/backdrops/CocktailsBackdrop";
+import CocktailBackdrop from "../components/backdrops/CocktailBackdrop";
 const Cocktails = () => {
   const [isLeftMenuOpen, setLeftMenuOpen] = useState(false);
   const leftMenuHandler = () => {
