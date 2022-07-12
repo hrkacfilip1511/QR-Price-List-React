@@ -50,6 +50,9 @@
 }
 
 @media all and (max-width: 480px) {
+  .teasContainer {
+    margin-top: 100px;
+  }
   .teasContent {
     width: 90%;
   }
