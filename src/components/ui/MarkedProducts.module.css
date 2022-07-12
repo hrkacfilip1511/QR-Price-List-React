@@ -77,6 +77,14 @@ body {
 } */
 
 @media all and (max-width: 480px) {
+  .bestCakes,
+  .bestWines,
+  .bestCocktails {
+    margin-top: 100px;
+  }
+  .markedContainer {
+    top: 900px;
+  }
   .cakesParagraph h2,
   .cocktailsParagraph h2,
   .winesParagraph h2 {
