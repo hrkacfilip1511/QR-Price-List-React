@@ -4,7 +4,7 @@ const RedWine = () => {
   return (
     <div className={classes.redWineContainer}>
       <div className={classes.title}>
-        <h1>Bijela Vina</h1>
+        <h1>Crvena Vina</h1>
       </div>
       <div className={classes.redWineContent}>
         <div className={classes.redWineRow}>
