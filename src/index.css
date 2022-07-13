@@ -12,9 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#root {
+/* #root {
   height: 2500px;
-}
+} */
 .backdrop {
   position: absolute;
   z-index: 50;
@@ -140,10 +140,28 @@ code {
   z-index: 50;
   object-fit: cover;
 }
+.alcohol-backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  z-index: 60;
+}
+.alcoholBg-image {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  object-fit: cover;
+}
 
 @media all and (max-width: 480px) {
   #root {
-    height: 2100px;
+    height: 2350px;
   }
   .image {
     object-fit: cover;

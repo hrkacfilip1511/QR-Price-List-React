@@ -1,0 +1,22 @@
+.firstAlcoholDiv {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.secondAlcoholDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.thirdAlcoholDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}

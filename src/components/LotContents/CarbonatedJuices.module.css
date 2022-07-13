@@ -63,4 +63,8 @@
     display: flex;
     justify-content: end;
   }
+  .carbonatedRow span:nth-child(3) {
+    display: flex;
+    justify-content: end;
+  }
 }

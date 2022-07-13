@@ -1,4 +1,6 @@
 import { useState } from "react";
+import AlcoholBackdrop from "../components/backdrops/AlcoholBackdrop";
+import AlcoholContents from "../components/contents/AlcoholContents";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LeftMenu from "../components/ui/LeftMenu";
@@ -12,6 +14,8 @@ const Shots = () => {
     <div>
       <Header onChange={leftMenuHandler} />
       <LeftMenu leftMenuStatus={isLeftMenuOpen} />
+      <AlcoholBackdrop />
+      <AlcoholContents />
       <Footer />
     </div>
   );

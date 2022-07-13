@@ -1,68 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
 
-.freshContainer {
-  width: 50%;
+.tequilaContainer {
+  width: 45%;
   z-index: 90;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-family: "Poppins";
   color: white;
+  z-index: 90;
 }
 .title {
   letter-spacing: 1.5px;
   font-style: oblique;
   text-transform: uppercase;
   margin-top: 80px;
-  z-index: 90;
+  z-index: 900;
   text-align: center;
 }
-.freshContent {
-  width: 100%;
+.tequilaContent {
+  width: 60%;
   z-index: 90;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.freshRow {
+.tequilaRow {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-.freshRow:nth-child(1) {
+.tequilaRow:nth-child(1) {
   color: rgb(143, 143, 143);
   font-style: italic;
 }
-.freshRow span {
+.tequilaRow span {
   width: 33%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.freshRow span:nth-child(1) {
+.tequilaRow span:nth-child(1) {
   display: flex;
   justify-content: start;
 }
 @media all and (max-width: 480px) {
-  .freshContent {
+  .tequilaContent {
     width: 90%;
   }
   .title {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
-  .freshRow {
+  .tequilaRow {
     font-size: 0.8rem;
     margin-top: 3px;
   }
-  .freshRow span:nth-child(2) {
-    display: flex;
+  .tequilaRow span:nth-child(2) {
     justify-content: end;
   }
-  .freshRow span:nth-child(3) {
-    display: flex;
+  .tequilaRow span:nth-child(3) {
     justify-content: end;
   }
 }

@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@200&family=Lato:wght@300&family=Manrope&family=Poppins:ital,wght@0,200;1,300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&display=swap");
 
-.freshContainer {
+.vodkaContainer {
   width: 50%;
   z-index: 90;
   display: flex;
-
+  /* position: absolute;
+  top: 80px;
+  left: 0; */
   flex-direction: column;
   font-family: "Poppins";
   color: white;
@@ -17,7 +19,7 @@
   z-index: 90;
   text-align: center;
 }
-.freshContent {
+.vodkaContent {
   width: 100%;
   z-index: 90;
   display: flex;
@@ -25,44 +27,36 @@
   align-items: center;
   flex-direction: column;
 }
-.freshRow {
+.vodkaRow {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-.freshRow:nth-child(1) {
+.vodkaRow:nth-child(1) {
   color: rgb(143, 143, 143);
   font-style: italic;
 }
-.freshRow span {
+.vodkaRow span {
   width: 33%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.freshRow span:nth-child(1) {
+.vodkaRow span:nth-child(1) {
   display: flex;
   justify-content: start;
 }
 @media all and (max-width: 480px) {
-  .freshContent {
+  .vodkaContent {
     width: 90%;
   }
   .title {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
-  .freshRow {
+  .vodkaRow {
     font-size: 0.8rem;
     margin-top: 3px;
-  }
-  .freshRow span:nth-child(2) {
-    display: flex;
-    justify-content: end;
-  }
-  .freshRow span:nth-child(3) {
-    display: flex;
-    justify-content: end;
   }
 }
