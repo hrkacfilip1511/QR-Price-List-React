@@ -104,6 +104,42 @@ code {
   z-index: 50;
   object-fit: cover;
 }
+.sweets-backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  z-index: 60;
+}
+.sweetsBg-image {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  object-fit: cover;
+}
+.juice-backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  z-index: 60;
+}
+.juiceBg-image {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  object-fit: cover;
+}
 
 @media all and (max-width: 480px) {
   #root {

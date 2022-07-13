@@ -1,0 +1,15 @@
+.firstJuiceDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex-direction: row;
+}
+.secondJuiceDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}

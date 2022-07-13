@@ -1,4 +1,6 @@
 import { useState } from "react";
+import JuiceBackdrop from "../components/backdrops/JuicesBackdrop";
+import JuiceContents from "../components/contents/JuiceContents";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LeftMenu from "../components/ui/LeftMenu";
@@ -12,6 +14,8 @@ const Juices = () => {
     <div>
       <Header onChange={leftMenuHandler} />
       <LeftMenu leftMenuStatus={isLeftMenuOpen} />
+      <JuiceBackdrop />
+      <JuiceContents />
       <Footer />
     </div>
   );
