@@ -56,7 +56,11 @@
     font-size: 0.8rem;
   }
   .carbonatedRow {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: 3px;
+  }
+  .carbonatedRow span:nth-child(2) {
+    display: flex;
+    justify-content: end;
   }
 }
