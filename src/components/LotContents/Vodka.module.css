@@ -48,6 +48,14 @@
   display: flex;
   justify-content: start;
 }
+.vodkaRow span:nth-child(2) {
+  display: flex;
+  justify-content: end;
+}
+.vodkaRow span:nth-child(3) {
+  display: flex;
+  justify-content: end;
+}
 @media all and (max-width: 480px) {
   .vodkaContent {
     width: 90%;
@@ -60,7 +68,7 @@
     margin-top: 3px;
   }
   .vodkaRow span:nth-child(1) {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: start;
   }
@@ -70,7 +78,7 @@
     justify-content: end;
   }
   .vodkaRow span:nth-child(3) {
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: end;
   }
