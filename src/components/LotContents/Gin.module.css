@@ -62,7 +62,7 @@
     font-size: 0.7rem;
   }
   .ginRow {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 3px;
   }
   .ginRow span:nth-child(1) {
@@ -77,5 +77,6 @@
   .ginRow span:nth-child(3) {
     width: 30%;
     justify-content: end;
+    margin-left: 8px;
   }
 }

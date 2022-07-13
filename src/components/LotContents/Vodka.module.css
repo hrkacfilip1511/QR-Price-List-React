@@ -64,11 +64,11 @@
     font-size: 0.7rem;
   }
   .vodkaRow {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 3px;
   }
   .vodkaRow span:nth-child(1) {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: start;
   }
@@ -78,6 +78,8 @@
     justify-content: end;
   }
   .vodkaRow span:nth-child(3) {
+    margin-left: 8px;
+
     width: 25%;
     display: flex;
     justify-content: end;

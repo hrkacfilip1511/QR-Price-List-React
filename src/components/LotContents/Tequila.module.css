@@ -64,7 +64,7 @@
     font-size: 0.7rem;
   }
   .tequilaRow {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 3px;
   }
   .tequilaRow span:nth-child(1) {
@@ -79,5 +79,6 @@
   .tequilaRow span:nth-child(3) {
     width: 25%;
     justify-content: end;
+    margin-left: 8px;
   }
 }
