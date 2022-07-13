@@ -81,4 +81,8 @@
     justify-content: end;
     margin-left: 8px;
   }
+  .tequilaRow:nth-child(4) span:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -23,7 +23,7 @@ const Sweet = () => {
           <span>3,50</span>
         </div>
         <div className={classes.sweetRow}>
-          <span>Čoko narančca</span>
+          <span>Čoko naranča</span>
           <span>tanjur</span>
           <span>3,50</span>
         </div>
