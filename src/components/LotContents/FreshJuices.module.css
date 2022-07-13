@@ -57,12 +57,4 @@
     font-size: 0.8rem;
     margin-top: 3px;
   }
-  .freshRow span:nth-child(2) {
-    display: flex;
-    justify-content: end;
-  }
-  .freshRow span:nth-child(3) {
-    display: flex;
-    justify-content: end;
-  }
 }
