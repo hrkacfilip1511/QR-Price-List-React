@@ -4,7 +4,7 @@
   width: 50%;
   z-index: 90;
   display: flex;
-
+  font-weight: 700;
   flex-direction: column;
   font-family: "Poppins";
   color: white;
@@ -54,7 +54,7 @@
     font-size: 0.8rem;
   }
   .freshRow {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: 3px;
   }
 }
