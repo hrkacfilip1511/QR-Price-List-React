@@ -68,21 +68,7 @@
     display: flex;
     justify-content: end;
   }
-  .carbonatedRow span:nth-child(1) {
-    width: 57%;
-    display: flex;
-    justify-content: start;
-  }
-  .carbonatedRow span:nth-child(2) {
-    width: 15%;
-    display: flex;
-    justify-content: end;
-  }
-  .carbonatedRow span:nth-child(3) {
-    width: 28%;
-    display: flex;
-    justify-content: end;
-  }
+
   .carbonatedRow:nth-child(1) span:nth-child(3) {
     display: flex;
     justify-content: end;
