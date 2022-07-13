@@ -161,7 +161,7 @@ code {
 
 @media all and (max-width: 480px) {
   #root {
-    height: 2400px;
+    height: 2300px;
   }
   .image {
     object-fit: cover;

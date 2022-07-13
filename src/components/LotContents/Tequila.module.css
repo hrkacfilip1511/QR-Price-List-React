@@ -9,6 +9,7 @@
   flex-direction: column;
   font-family: "Poppins";
   color: white;
+  font-weight: 700;
   z-index: 90;
 }
 .title {
@@ -56,6 +57,7 @@
   display: flex;
   justify-content: end;
 }
+
 @media all and (max-width: 480px) {
   .tequilaContent {
     width: 90%;
@@ -68,7 +70,7 @@
     margin-top: 3px;
   }
   .tequilaRow span:nth-child(1) {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: start;
   }
@@ -82,6 +84,7 @@
     margin-left: 8px;
   }
   .tequilaRow:nth-child(4) span:nth-child(1) {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
