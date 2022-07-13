@@ -59,11 +59,18 @@
     font-size: 0.8rem;
     margin-top: 3px;
   }
+  .brandyRow span:nth-child(1) {
+    width: 45%;
+    display: flex;
+    justify-content: start;
+  }
   .brandyRow span:nth-child(2) {
+    width: 25%;
     display: flex;
     justify-content: end;
   }
   .brandyRow span:nth-child(3) {
+    width: 30%;
     display: flex;
     justify-content: end;
   }

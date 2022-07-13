@@ -59,4 +59,19 @@
     font-size: 0.8rem;
     margin-top: 3px;
   }
+  .whiskeyRow span:nth-child(1) {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+  }
+  .whiskeyRow span:nth-child(2) {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+  }
+  .whiskeyRow span:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+  }
 }

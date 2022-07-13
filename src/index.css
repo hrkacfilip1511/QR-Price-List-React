@@ -12,9 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* #root {
+#root {
   height: 2500px;
-} */
+}
 .backdrop {
   position: absolute;
   z-index: 50;
@@ -161,7 +161,7 @@ code {
 
 @media all and (max-width: 480px) {
   #root {
-    height: 2350px;
+    height: 2400px;
   }
   .image {
     object-fit: cover;
